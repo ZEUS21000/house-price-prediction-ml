@@ -8,6 +8,7 @@ from sklearn.impute import SimpleImputer
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 from sklearn.ensemble import RandomForestRegressor
 import joblib
+# Using RandomForest as a robust baseline before trying more complex models
 
 # Load data
 df = pd.read_csv("data.csv")

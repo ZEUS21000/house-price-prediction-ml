@@ -1,6 +1,8 @@
 # House Price Prediction (Machine Learning)
 
-This project uses a machine learning regression model to predict house prices from tabular housing data.
+This project was built as part of my self-study in machine learning to better understand
+data preprocessing, feature handling, and regression models using real tabular housing data.
+
 
 ## Technologies
 - Python
@@ -20,6 +22,11 @@ pip install -r requirements.txt
 Note: `data.csv` and `model.joblib` are not included in the repository. 
 The dataset should be provided locally and the model file is generated after training.
 ## Design Choices
-- Random Forest was chosen as a strong baseline model for tabular data.
-- One-hot encoding was used to handle categorical features safely.
-- MAE and RMSE were selected as evaluation metrics for interpretability.
+- A Random Forest Regressor was chosen as a strong and reliable baseline for tabular data.
+- One-hot encoding was used to safely handle categorical features.
+- Median and most-frequent imputation were applied to deal with missing values.
+- MAE and RMSE were selected as evaluation metrics for easier interpretation of model performance.
+
+This project helped me understand the end-to-end machine learning workflow,
+from data preprocessing to model training, evaluation, and saving trained models.
+
