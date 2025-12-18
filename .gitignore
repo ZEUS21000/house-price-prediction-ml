@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env
+venv/
+model.joblib
+data.csv
+.DS_Store
